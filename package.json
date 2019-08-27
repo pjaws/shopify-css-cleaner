@@ -1,16 +1,16 @@
 {
-	"name": "unicorn-fun-cli",
-	"version": "0.0.0",
-	"description": "My awesome command-line tool",
+	"name": "shopify-css-cleaner",
+	"version": "0.1.0",
+	"description": "Removes unused CSS from Shopify theme files and optionally minifies",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun-cli",
+	"repository": "pjaws/shopify-css-cleaner",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "Paul Matthew Jaworski",
+		"email": "paulmattjaws@gmail.com",
+		"url": "https://pauljaworski.com"
 	},
 	"bin": {
-		"unicorn-fun": "cli.js"
+		"shopify-css-cleaner": "cli.js"
 	},
 	"engines": {
 		"node": ">=8"
@@ -24,12 +24,11 @@
 	"keywords": [
 		"cli",
 		"cli-app",
-		"unicorn",
-		"fun"
+		"shopify",
+		"unused-css"
 	],
 	"dependencies": {
-		"meow": "^5.0.0",
-		"unicorn-fun": "^0.0.0"
+		"meow": "^5.0.0"
 	},
 	"devDependencies": {
 		"ava": "^2.1.0",
