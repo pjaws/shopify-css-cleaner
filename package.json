@@ -28,7 +28,8 @@
 		"unused-css"
 	],
 	"dependencies": {
-		"meow": "^5.0.0"
+		"meow": "^5.0.0",
+		"purify-css": "^1.2.5"
 	},
 	"devDependencies": {
 		"ava": "^2.1.0",
